@@ -1,0 +1,222 @@
+/*!
+ 
+Theme Name: G & Co. Landing Page
+Theme URI: #
+Description: Landing Page Theme for G & Co.
+Version: 1.0
+Author: The Creative Foundation
+Author URI: #
+License: GPL
+License URI: License.txt
+Tags: responsive-layout, post-formats
+ 
+*/
+body {
+  background: url("images/bg_lp-building.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  min-height: 100%;
+}
+
+label {
+  color: #fff;
+}
+
+.landing-page {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 100%;
+  max-height: 1300px;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.lp-left {
+  width: 50%;
+  position: relative;
+  float: left;
+  padding-top: 8.41%;
+}
+
+.lp-left h2 {
+  margin-top: .9em;
+  margin-bottom: 1.25em;
+}
+
+.lp-right {
+  width: 50%;
+  float: right;
+  position: relative;
+  padding-top: 16.75%;
+}
+
+.right_split {
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  background: rgba(43, 29, 18, 0.9);
+  height: 100%;
+}
+
+.left_split {
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  background: rgba(19, 112, 112, 0.4);
+  height: 100%;
+}
+
+.center-wrapper {
+  height: 100%;
+}
+
+.center-table {
+  width: 100%;
+  height: 100%;
+}
+
+.logo img {
+  max-width: 368px;
+}
+
+.lp-form {
+  width: 40.65%;
+  font-size: 16px;
+}
+.lp-form h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.lp-form p {
+  text-align: center;
+  padding: 0px 50px;
+}
+.lp-form .mc-field-group label {
+  display: none;
+}
+.lp-form .mc-field-group input {
+  margin-bottom: 24px;
+}
+.lp-form input, .lp-form textarea {
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  line-height: 60px;
+  color: #2b1d12;
+  -webkit-appearance: none;
+  font-weight: 600;
+}
+.lp-form .first-name, .lp-form .last-name, .lp-form .monthfield, .lp-form .dayfield {
+  width: 46.5%;
+  float: left;
+}
+.lp-form .first-name input, .lp-form .last-name input, .lp-form .monthfield input, .lp-form .dayfield input {
+  padding-left: 35px;
+  width: 83%;
+}
+.lp-form .last-name, .lp-form .dayfield {
+  float: right;
+}
+.lp-form .field input {
+  margin-bottom: 11px;
+}
+.lp-form .email {
+  width: 92%;
+  padding-left: 35px;
+}
+.lp-form .datefield .small-meta {
+  display: none;
+}
+.lp-form input.button {
+  width: 100%;
+  background: #137070;
+  font-size: 30px;
+  color: #e9e4de;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 2.25em;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #333;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  color: #e9e4de;
+  letter-spacing: .75px;
+  line-height: 1.75em;
+}
+
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #e9e4de;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  letter-spacing: .1em;
+}
+
+h3 {
+  text-transform: none;
+  font-size: 1.5em;
+  letter-spacing: .095em;
+}
+
+::-webkit-input-placeholder {
+  /* Safari, Chrome and Opera */
+  color: #2b1d12;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #2b1d12;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #2b1d12;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #2b1d12;
+}
+
+::-ms-input-placeholder {
+  /* Edge */
+  color: #2b1d12;
+}
+
+:placeholder-shown {
+  /* Standard one last! */
+  color: #2b1d12;
+}
