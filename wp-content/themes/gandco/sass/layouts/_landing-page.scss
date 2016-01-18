@@ -1,0 +1,215 @@
+.landing-page{
+	.container{
+		max-height: 1300px;
+		@include breakpoint(1023px){
+			background: rgba(19, 112, 112, 0.4);
+		}
+
+		@include breakpoint(570px){
+			padding: 0 20px;
+		}
+	}
+}
+
+.right_split{
+	width: 50%;
+	position: absolute;
+	right: 0px;
+	background: rgba(43, 29, 18, 0.9);
+	height: 100%;
+	min-width: 433px;
+	@include breakpoint(1023px){
+		display: none;
+	}
+
+}
+
+.left_split{
+	width: 50%;
+	position: absolute;
+	left: 0px;
+	background: rgba(19, 112, 112, 0.4);
+	height: 100%;
+	@include breakpoint(1023px){
+		width: 100%;
+		background: transparent;
+	}
+
+}
+
+.lp-wrapper{
+	float: left;
+	padding-bottom: 120px;
+}
+
+.lp-left{
+	width: 50%;
+	position: relative;
+	float: left;
+	padding-top: 8.41%;
+	@include breakpoint(1023px){
+		width: 490px;
+		float: none;
+		margin: 0 auto;
+	}
+	@include breakpoint(570px){
+		width: 100%;
+	}
+	h2{
+		margin-top: .9em;
+		margin-bottom: 1.25em;
+	}
+}
+
+.lp-right{
+	width: 50%;
+	float: right;
+	position: relative;
+	padding-top: 16.75%;
+	min-width: 433px;
+	@include breakpoint(1023px){	
+		background: rgba(43, 29, 18, 0.9);
+		padding: 30px;
+		margin: 0 auto;
+		float: none;
+		margin-top: 120px;
+	}
+	@include breakpoint(570px){
+		width: 100% !important;
+
+		padding-left: 0;
+		padding-right: 0;
+		min-width: 320px !important;
+	}
+}
+
+.landing-page .logo img{
+	max-width: 368px;
+	width: 100%;
+}
+
+.lp-form{
+	width: 40.65%;
+	font-size: 16px;
+	h3{
+		margin-top: 0;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.5em;
+		text-align: center;
+		letter-spacing: 1px;
+		cursor: default;
+	}
+	p{
+		text-align: center;
+		padding: 0px 50px;
+		@include breakpoint(570px){
+			padding: 0px 20px;
+		}
+	}
+	.mc-field-group{
+		label{
+			display: none;
+		}
+		input{
+			margin-bottom: 24px;
+		}
+	}
+	input, textarea{
+		border-radius: 10px;
+		border: 0;
+		font-size: 16px;
+		line-height: 60px;
+		color: $c-black;
+		-webkit-appearance: none;
+		font-weight: 600;
+	}
+
+	.first-name, .last-name, .monthfield, .dayfield {
+		width: 46.5%;
+		float: left;
+		@include breakpoint(570px){
+			width: 100%;
+		}
+		input{
+			padding-left: 35px;
+			width: 83%;
+			@include breakpoint(570px){
+				width: 84%;
+				margin-left: 3.5%;
+				margin-right: 3.5%;
+			}
+			@include breakpoint(380px){
+				padding-left: 21px;
+			}
+		}
+	}
+	.first-name{
+	}
+	.last-name, .dayfield{
+		float: right;
+	}
+	.field input{
+		margin-bottom: 11px;
+	}
+	.email{
+		width: 92%;
+		padding-left: 35px;
+		@include breakpoint(570px){
+			width: 84.5%;
+				margin-left: 3.5%;
+		}
+					@include breakpoint(380px){
+				padding-left: 21px;
+			}
+	}
+	.datefield .small-meta{
+		display: none;
+	}
+	input.button{
+		width: 100%;
+		background: $c-teal;
+		font-size: 30px;
+		color: $c-white;
+		letter-spacing: 1.5px;
+		font-weight: 400;
+		line-height: 2.25em;
+		&:hover{
+			background: #015b5c;
+			cursor: pointer;
+		}
+			@include breakpoint(570px){
+				width: 92.5%;
+				margin-left: 3.5%;
+				margin-right: 3.5%;
+			}
+	}
+}
+
+@include breakpoint(1023px){
+	.landing-page{
+		height: 100%;
+	}
+
+	.center-content{
+		padding-bottom: 40px;
+	}
+}
+
+@include breakpoint(570px){
+	.logo{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.lp-left h2, .lp-left h3{
+		font-size: 1.5em;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@include breakpoint(402px){
+	.lp-left h2, .lp-left h3{
+		font-size: 1.15em;
+	}
+}
