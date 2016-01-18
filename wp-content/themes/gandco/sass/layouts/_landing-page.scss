@@ -1,6 +1,5 @@
 .landing-page{
 	.container{
-		max-height: 1300px;
 		@include breakpoint(1023px){
 			background: rgba(19, 112, 112, 0.4);
 		}

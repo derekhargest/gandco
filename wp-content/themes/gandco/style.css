@@ -108,9 +108,6 @@ label {
   clear: both;
 }
 
-.landing-page .container {
-  max-height: 1300px;
-}
 @media (max-width: 1023px) {
   .landing-page .container {
     background: rgba(19, 112, 112, 0.4);
@@ -312,5 +309,32 @@ label {
     width: 92.5%;
     margin-left: 3.5%;
     margin-right: 3.5%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .landing-page {
+    height: 100%;
+  }
+
+  .center-content {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 570px) {
+  .logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lp-left h2, .lp-left h3 {
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 402px) {
+  .lp-left h2, .lp-left h3 {
+    font-size: 1.15em;
   }
 }
