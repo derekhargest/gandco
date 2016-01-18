@@ -115,7 +115,7 @@ label {
 }
 @media (max-width: 570px) {
   .landing-page .container {
-    padding: 0 20px;
+    padding: 0 0;
   }
 }
 
