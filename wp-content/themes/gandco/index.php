@@ -24,8 +24,6 @@
 						<div id="mc_embed_signup">
 							<form action="//guntherandco.us12.list-manage.com/subscribe/post?u=58890f0a3e19da18a7199183a&amp;id=df08994e44" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							    <div id="mc_embed_signup_scroll">
-								
-									<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 										<div class="mc-field-group first-name">
 											<label for="mce-FNAME">First Name </label>
 											<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
@@ -41,7 +39,7 @@
 									<div class="mc-field-group size1of2">
 										<label for="mce-MMERGE3-month">Birthday </label>
 										<div class="datefield">
-											<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="Brith Month" size="2" maxlength="2" name="MMERGE3[month]" id="mce-MMERGE3-month"></span>
+											<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="Birth Month" size="2" maxlength="2" name="MMERGE3[month]" id="mce-MMERGE3-month"></span>
 											<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="Birth Day" size="2" maxlength="2" name="MMERGE3[day]" id="mce-MMERGE3-day"></span> 
 										</div>
 									</div>
